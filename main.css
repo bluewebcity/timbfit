@@ -1,0 +1,1178 @@
+
+html {
+    scroll-behavior: smooth;
+}
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    padding: 0px;
+    margin: 0px;
+    font-family: Calibri,sans-serif;
+    width: 100%;
+    display: -webkit-box;
+   -webkit-box-pack: center;
+   -webkit-box-orient: vertical;
+}
+.header {
+    border-bottom: 2px solid #dc0101;
+    background-color: #a0cdf1;
+    
+}
+.page {
+  
+}
+
+.footer {
+    
+}
+.column {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+   -webkit-box-flex: 1;
+   
+   max-width: 1200px;
+    margin: 0px auto;
+}
+#novi-div {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.page .column {
+    height:100vh;
+}
+#logo-social {
+    display: flex;
+}
+#logo-holder {
+    flex-grow: 1;
+}
+#logo-holder img {
+    height: 60px;
+    width: 100px;
+    margin: 5px;
+}
+#social-holder {
+    flex-grow: 1;
+    text-align: right;
+}
+#social-holder a img {
+    height: 36px;
+    width: 36px;
+    margin: 10px;
+    border-radius: 50%;
+}
+#social-holder a {
+    text-decoration: none;
+}
+
+
+#main-menu {
+    display: flex;
+   
+}
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700,800,900');
+header {
+    width: 100%;
+    background: #0c265f;
+
+}
+header ul {
+    display: flex;
+    justify-content: flex-end;
+    max-width: 1200px;
+    margin: 0px;
+    padding: 0px;
+}
+header ul li {
+    list-style: none;
+    position: relative;
+    padding: 10px 15px;
+    transition: 0.5s;
+    box-sizing: border-box;
+    border-right: 1px solid #11b6a8;
+}
+header ul li:last-child {
+
+    border-right: none;
+}
+header ul li :hover {
+    background-color: white;
+    color: #dc0101;
+}
+header ul li a {
+    text-decoration: none;
+    padding: 0 20px;
+    color: #11b6a8;
+}
+header ul li ul {
+    position: absolute;
+    top: 45px;
+    left: 0;
+    background: #dc0101;
+    display: block;
+    width: 200px;
+    transition: 0.5s;
+    opacity: 0;
+    visibility: hidden;
+    border-radius: 4%;
+}
+header ul li:hover ul {
+    opacity: 1;
+    visibility: visible;
+}
+header ul li ul li {
+    border-right: none;
+    
+    
+}
+@media (max-width:768px){
+    header ul {
+        display: block;
+    }
+    header ul li {
+        display: block;
+
+    }
+    header ul li ul {
+        width: 100%;
+    }
+}
+
+
+
+#pocetna {
+    text-align: center;
+    color: #0c265f;
+    background-image: url('run.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    margin-bottom: 0px;
+   
+    
+
+}
+#pocetna h1 {
+    font-size: 48pt;
+    padding: 25px;
+    margin-top: 0px;
+    padding-top: calc (50vh-250px);
+    
+}
+.dark-box {
+    background-color: #99999965;
+    border: 3px solid #0c265f;
+    font-size: 24px;
+    color: #0c265f;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 10%;
+    width: 600px;
+    height: 400px;
+    margin-left: 280px;
+    text-align: center;
+    
+}
+.dark-box p {
+    padding: 20px;
+    font-size: 20px;
+}
+ 
+#savjeti {
+    background-image: url('plava.jpg');
+    padding-bottom: 200px; 
+     
+    background-attachment: fixed;
+    background-size: cover;
+}
+#savjeti h2 {
+    margin-top: 0px;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 38pt;
+    padding-top: calc (50vh-250px);
+}
+
+
+.align-center  {
+    text-align: center;
+    font-size: 32px;
+    color: #ff2400;
+    font-weight: bolder;
+}
+.krugovi  {
+    display:flex;
+    margin: 25px 0;
+    margin-left: 90px;
+    
+}
+.krug-holder {
+    flex-grow: 1;
+}
+#krug {
+    color: #fefefe;
+    background-color: #dc0101;
+    font-weight: bold;
+    width: 70px;
+    height: 70px;
+    font-size: 24px;
+    padding: 50px;
+    border-radius: 50%;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px solid whitesmoke;
+    
+}
+#krug a {
+    color: whitesmoke;
+}
+.krugovi-dva {
+    display: flex;
+ margin: 25px 0;
+ margin-left: 250px;
+ 
+}
+.krug-holderdva {
+flex-grow: 1;
+margin-bottom: 15px;
+
+}
+.krug-dva {
+    padding: 40px;
+    color: white;
+    background: #182031;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    align-content: center;
+    justify-content: center;
+    margin-top: 100px;
+    border: 2px solid whitesmoke;
+}#workout h2 {
+    padding: 30px;
+    font-size: 36px;
+    color: white;
+}
+
+#workout {
+    background: #0c265f;
+    text-align: center;
+}
+#aerobic h2 {
+    font-size: 36px;
+    padding: 10px;
+    color: white;
+}
+#aerobic {
+    background: #dc0101;
+    text-align: center;
+}#brock {
+    background: #d501dc;
+}
+#streching {
+    background: #4c5e57;
+    text-align: center;
+}
+#streching h2 {
+    font-size: 36px;
+    color: white;
+    padding: 20px;
+}
+#balance {
+    background: #072057;
+    text-align: center;
+}
+#balance h2 {
+    font-size: 36px;
+    color: white;
+    padding: 20px;
+}
+#mixa {
+    background: #421344;
+    text-align: center;
+}
+#mixa h2 {
+    text-align: center;
+    font-size: 46px;
+    color: white;
+}
+#butt {
+    background: #0a5c70;
+}
+#butt h2 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+#brock h2 {
+    text-align: center;
+    font-size: 36px;
+    color: white;
+}
+.krug-pholder p {
+    font-size: 24px;
+    text-align: left;
+}
+.krug-pholder {
+    display: flex;
+    color: white;
+    font-size: 24px;
+}
+#imagew img {
+    padding: 50px;
+    border-radius: 10%;
+}
+#imagest img {
+    width: 600px;
+    height: 300px;
+    padding: 30px;
+}
+#bodyrock {
+    color: white;
+    background: #dc0101;
+}
+.krug-holder p {
+    
+    margin-left: 50px;
+    flex-grow: 1;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    padding: 30px;
+}
+#image img {
+    height: 400px;
+    width: 600px;
+    margin-left: 300px;
+}#bodyrock h2 {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    padding: 30px;
+    
+}
+
+.krugbr p {
+    padding: 30px;
+    font-size: 24px;
+}
+.krugbe p {
+    font-size: 36px;
+    color: white;
+}
+#imagebr img {
+  width: 600px;
+  height: 300px;
+  padding: 10px; 
+  
+   
+}
+#imagebe img {
+    padding: 30px;
+    
+}
+.krug-holderd {
+    display: flex;
+  
+}
+.krug-dva a {
+    color: white;
+}
+.krug-holderd {
+    display: flex;
+    margin-top: 10px;
+    margin: 50px;
+    margin-top: 0px;
+}
+.krug-dva #onkrug {
+    
+    flex-grow: 1;
+  
+    color: white;
+    background: #182031;
+    border-radius: 50%;
+    font-size: 24px;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    
+    margin-top: 100px;
+    border: 2px solid whitesmoke;
+   
+}
+.image-online img {
+    width: 200px;
+    height: 200px;
+    padding: 25px;
+    border-radius: 30%;
+    display: -webkit-box;
+   
+}
+
+.online a img {
+    height: 36px;
+    width: 36px;
+    margin: 15px;
+}
+.online {
+    margin-left: 200px;
+    padding: 30px;
+    flex-grow: 1;
+    color: #182031;
+    font-size: 20px;
+}
+.krugovi-person {
+    display: flex;
+ margin: 25px 0;
+ margin-left: 50px;
+}
+.krugovi-person p {
+    margin-top: 10px;
+ 
+ font-size: 24px;
+ color: #dc0101;
+}
+.krugovi-person img {
+    height: 400px;
+    padding: 15px;
+    width: 400px;
+    margin-top: 100px;
+}
+
+
+.online img {
+    border-radius: 50%;
+}
+
+#trening h2 {
+    padding: 40px;
+}
+#trening {
+    background-image: url('lopta.jpg');
+    background-attachment: fixed;
+    background-size: cover;
+    
+}
+#trening h2 {
+    margin-top: 0px;
+    text-align: center;
+    padding: 25px;
+    color: deepskyblue;
+    font-size: 48pt;
+}
+
+.service-row {
+    display: flex;
+    justify-content: space-between;
+    
+}
+.service-row > div {
+   
+    justify-content: space-between;
+    text-align: center;
+    position: relative;
+    width: 300px;
+    height: 300px;
+    
+}
+.service-row > div> img {
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 10%;
+    
+}
+.service-row > div > p {
+    font-size: 28px;
+    font-weight: bolder;
+    color: black;
+    left: 0px;
+    right: 0px;
+    bottom: 20px;
+    padding: 10px;
+    background-color: #dc010160;
+    position: absolute;
+    
+}
+.pocetnik {
+    display: flex;
+    margin-left: 100px;
+    margin-right: auto;
+}
+
+#naslov h2 {
+    padding: 5px;
+
+}
+#prvi-nacin {
+    font-weight: bold;
+    padding: 30px;
+    flex-grow: 1;
+    font-size: 36px;
+    color: #dc0101;
+  
+}
+#prvi-nacin h2 {
+    color: #072057;
+    font-size: 36px;
+    padding: 20px;
+}
+#korakprvi {
+    background: #0c265f;
+}
+#korakprvi h2 {
+    color: white;
+    font-size: 36px;
+    text-align: center;
+}
+#prvi-korak p {
+    color: #a9dff8;
+    font-size: 16px;
+    text-align: center;
+}
+#drugi-nacin {
+    font-weight: bold;
+    padding: 30px;
+    flex-grow: 1;
+    font-size: 36px;
+    color: #dc0101;
+   
+}
+#treci-nacin {
+    padding: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 36px;
+    color: #dc0101;
+   
+}
+#cetvrti-nacin {
+    padding: 30px;
+    font-weight: bold;
+    flex-grow: 1;
+    font-size: 36px;
+    color: #dc0101;
+  
+}
+
+#prvi-korak a {
+    color: #dc0101;
+    text-decoration: none;
+    background: white;
+}
+#prvi-korak a:hover {
+    background: #dc0101;
+    color: white;
+    cursor: pointer;
+}
+#prvi-nacin a {
+    color: #dc0101;
+    text-decoration: none;
+}
+#prvi-nacin a:hover {
+    background: #dc0101;
+    color: #11b6a8;
+    cursor: pointer;
+}
+#drugi-nacin a {
+    color: #dc0101;
+    text-decoration: none;
+}
+#drugi-nacin a:hover {
+    background: #dc0101;
+    color: #11b6a8;
+    cursor: pointer;
+}
+#treci-nacin a {
+    color: #dc0101;
+    text-decoration: none;
+}
+#cetvrti-nacin a {
+    color: #dc0101;
+    text-decoration: none;
+}
+#cetvrti-nacin a:hover {
+    background: #dc0101;
+    color: #11b6a8;
+    cursor: pointer;
+}
+#treci-nacin a:hover {
+    background: #dc0101;
+    color: #11b6a8;
+    cursor: pointer;
+}
+.tre-ko {
+    display: flex;
+}
+#treci-ko {
+    flex-grow: 1;
+    font-size: 56px;
+    color: #0c265f;
+    padding: 15px;
+}
+#treci-korak {
+    flex-grow: 1;
+    color: #dc0101;
+    font-size: 20px;
+}
+
+.trecikorak {
+    margin: 0;
+}
+#drugiko h2 {
+    font-size: 24xp;
+    text-align: center;
+    color: #0c265f;
+}
+#drugiko p {
+    font-size: 16px;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    font-weight: bold;
+}
+#trecikorak {
+    display: block;
+}
+.namirnice {
+    display: flex;
+    height: 450px;
+    
+}
+#proteini {
+    padding: 10px;
+    border: solid 2px white;
+    background: #dc0101;
+    flex-grow: 1;
+    color: white;
+    width: 300px;
+}
+#proteini p b {
+    color: #dc0101;
+    background: white;
+    border-radius: 5%;
+}
+#proteini p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#voce {
+    border: solid 2px white;
+    background: #0c265f;
+    flex-grow: 1;
+    color: white;
+    padding: 10px;
+    width: 300px;
+}
+#voce p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#voce p b {
+background: white;
+color: #0c265f;
+border-radius: 5%;
+}
+#povrce {
+    padding: 10px;
+    border: solid 2px white;
+    background: #0ba598;
+    flex-grow: 1;
+    color: white;
+    width: 300px;
+}
+#povrce p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#povrce p b {
+    background: white;
+    color: #0ba598;
+    border-radius: 5%;
+}
+#zacini {
+    padding: 10px;
+    border: solid 2px white;
+    background: rgb(240, 211, 46);
+    flex-grow: 1;
+    color: white;
+    width: 300px;
+}
+#zacini p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#zacini p b {
+    background: white;
+    color: rgb(240, 211, 46);
+    border-radius: 5%;
+}
+#ostalo {
+    padding: 10px;
+    border: solid 2px white;
+    background: #bb14a560;
+    flex-grow: 1;
+    color: white;
+    width: 300px;
+}
+#ostalo p {
+    color: white;
+    font-size: 18px;
+    margin-top: 0px;
+}
+#ostalo p b {
+    background: white;
+    color: #bb14a560;
+    border-radius: 5%;
+}
+.cetvrti-nacin {
+    display: flex;
+}
+#cetvrta h2 {
+    color: #0c265f;
+    font-size: 36px;
+}
+#savjet-prvi {
+    flex-grow: 1;
+    width: 400px;
+    height: 600px;
+}
+#savjet-prvi img {
+    width: 400px;
+    height: 600px;
+}
+#savjet-drugi {
+    flex-grow: 1;
+    width: 400px;
+    height: 600px;
+}
+#savjet-drugi img {
+    width: 400px;
+    height: 600px;
+}
+#savjet-treci {
+    flex-grow: 1;
+    width: 400px;
+    height: 600px;
+}
+#savjet-treci img {
+    width: 400px;
+    height: 600px;
+}
+ #bmi-page {
+     color: #0b054165;
+     font-size: 30px;
+     padding: 5px;
+     text-align: center;
+     background-image: url('hrana.jpg');
+     background-attachment: fixed;
+     background-size: cover;
+     
+    }
+   .bmi-index {
+       border: 2px solid white;
+       padding: 10px 40px;
+       background: #dc0101;
+       width: 400px;
+       height: 300px;
+       border-radius: 20%;
+       text-align: center;
+       margin-top: 50px;
+       margin-right: auto;
+       margin-left: auto;
+       color: white;
+       font-weight: bold;
+      
+   } 
+ #tezina {
+     font-weight: bold;
+     color:#182031;
+ }
+ #visina {
+    font-weight: bold;
+    color:#182031;
+ }
+  input {
+      background: white;
+      color: #9e1010;
+      font-weight: bold;
+      cursor: pointer;
+  }
+  #bmi-page h2 {
+      color: yellow;
+  }
+ .bmi-tekst {
+     font-size: 24px;
+     color: rgb(3, 68, 38);
+     margin-top: 30px;
+     text-align: center;
+     
+ }
+ .bmi-holder {
+     display: flex;
+     padding: 35px;
+     font-weight: bold;
+     margin-top: 15px;
+ }
+.bmi-holder #bmi-holderprvi {
+    flex-grow: 1;
+    color: rgb(33, 33, 240);
+    font-size: 24px;
+    
+    text-decoration: none;
+}
+.bmi-holder #bmi-holderprvi h3 a{
+    text-decoration: none;
+    color: blue;
+}
+.bmi-holder #bmi-holderprvi :hover {
+    background: blue;
+    color: yellow; 
+}
+.bmi-holder #bmi-holderdrugi h3 a {
+    text-decoration: none;
+    color: #0b9185;
+}
+.bmi-holder #bmi-holderdrugi {
+    flex-grow: 1;
+    color: rgb(10, 105, 53);
+    font-size: 24px;
+    
+    text-decoration: none;
+}
+.bmi-holder #bmi-holderdrugi  :hover {
+    background: rgb(20, 134, 72);
+    color: yellow;
+}
+.bmi-holder #bmi-holdertreci {
+    flex-grow: 1;
+    color: #df2525;
+    font-size: 24px;
+    
+    text-decoration: none;
+}
+.bmi-holder #bmi-holdertreci  :hover {
+    background: red;
+    color: yellow;
+}
+.bmi-holder #bmi-holdertreci h3 a {
+    text-decoration: none;
+    color: #dc0101;
+}
+.bmi-holder #bmi-holdercetvrti {
+    flex-grow: 1;
+    color: #500606;
+    font-size: 24px;
+    
+    text-decoration: none;
+}
+.bmi-holder #bmi-holdercetvrti  :hover {
+    background:#500606 ;
+    color: yellow;
+}
+.bmi-holder #bmi-holdercetvrti h3 a {
+    text-decoration: none;
+    color: #500606;
+}
+  .bmi-prva {
+      background: #2e5ec5;
+      color: white;
+
+  } 
+  #bmi-prvit h3 {
+      font-size: 36px;
+      margin-left: auto;
+      margin-right: auto;
+      margin-top: 10px;
+      text-align: center;
+      color: #0c265f;
+  }
+  .bmi-prvaimg {
+    align-items: center;
+    padding: 15px;
+  }
+  .bmi-prvaimg img {
+      height: 200px;
+      width: 300px;
+      border-radius: 10%;
+      
+     
+  }
+  #bmi-prvit p {
+      font-size: 24px;
+      text-align: center;
+      color: #2e5ec5;
+  }
+.bmi-druga {
+    
+    background-color: #06504a;
+}
+.bmi-drugat h3 {
+    font-size: 45px;
+    padding: 30px;
+
+}
+.bmi-drugitext p {
+    font-size: 30;
+    color: #0b9185;
+    padding: 30px;
+}
+.bmi-drugitext a {
+    color:#11b6a8;
+    background: white;
+    text-decoration: none;
+}
+ .bmi-drugat {
+     display: flex;
+     background: #05343a;
+ }
+.bmi-drugat {
+    flex-grow: 1;
+    color: #0b9185;
+    padding: 45px;
+}
+.bmi-drugaimg {
+    flex-grow: 1;
+    padding: 35px;
+    margin-top: 50px;
+}
+.bmi-treca {
+    
+    background-color: red;
+}
+.bmi-trecat h3 {
+    font-size: 45px;
+    padding: 30px;
+
+}
+.bmi-trecitext p {
+    font-size: 24px;
+    color: white;
+    padding: 30px;
+}
+.bmi-trecitext a {
+    color:red;
+    background: white;
+    text-decoration: none;
+}
+ .bmi-trecat {
+     display: flex;
+     background: red;
+ }
+.bmi-trecat {
+    flex-grow: 1;
+    color: white;
+    padding: 45px;
+}
+.bmi-trecaimg {
+    flex-grow: 1;
+    padding: 35px;
+    margin-top: 50px;
+}
+ .bmi-trecaimg img {
+     width: 200px;
+     height: 200px;
+ } 
+ .bmi-cetvrta {
+     background: #500606;
+     color: #500606;
+ }
+ .bmi-cetvrtat h2 {
+     color: whitesmoke;
+     font-size: 36px;
+
+ }
+ .bmi-cetvrta {
+     display: flex;
+     background: #500606;
+     color: whitesmoke;
+     padding: 15px;
+ }
+ .bmi-cetvrtitext p {
+     font-size: 16px;
+     padding: 15px;
+     margin-left: 50px;
+
+ }
+ .bmi-cetvrtaimg img {
+     padding: 100px;
+     height: 300px;
+     width: 300px;
+ }
+#galerija h2 {
+    padding: 15px;
+    color: #9e1010;
+    font-weight: bold;
+    text-align: center;
+    font-size: 36px;
+}
+
+div#galerija {
+    margin: 0;
+    width: 100%;
+    overflow: hidden;
+    font-weight: 100px;
+    background-image: url('macedo.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+figure.slider {
+    position: relative;
+    width: 500%;
+    animation: 30s slidy infinite;
+    
+
+}
+figure.slider figure {
+    width: 400px;
+    height: auto;
+    display: inline-block;
+    position: inherit;
+}
+figure.slider img {
+    width: 100%;
+    height: auto;
+}
+figure.slider figure figcaption {
+    position: absolute;
+    bottom: 0px;
+    background: rgba(0, 0, 0, 4);
+    color: #fff;
+    width: 100%;
+    font-size: 2rem;
+    padding: .6rem;
+}
+
+figure{
+    margin: 0;
+}
+@keyframes slidy {
+    0%{left: 0%;}
+    20%{left: 0%;}
+    25%{left: -100%;}
+    45%{left: -100%;}
+    50%{left: -200%;}
+    70%{left: -200%;}
+    75%{left: -300%;}
+    95%{left: -300%;}
+    100%{left: -400%;}
+
+}
+#kontakt {
+    background-image: url('phone.jpg');
+    margin-bottom: 0px;
+    background-size: cover;
+    background-attachment: fixed;
+    display: -webkit-box;
+    -webkit-box-flex: 1;
+    -webkit-box-pack: center;
+}
+
+#kontakt h2 {
+    padding: 40px;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+    color: #dc0101;
+    font-size: 48px;
+}
+.kontakt-region {
+    display: flex;
+    align-content: center;
+    background-color: #fefefe;
+    font-size: 26px;
+    color: #dc0101;
+    width: 700px;
+    margin-top: 40px;
+    margin-left: 400px;               
+    border: 3px solid;
+    padding: 40px;
+    
+}
+#fittim {
+    font-size: 36pt;
+    font-weight: bolder;
+}
+#adresa {
+    flex-grow: 1;
+}
+#mapa {
+    flex-grow: 1;
+}
+.kontakt-mejl {
+    padding-bottom: 15px;
+    font-size: 25pt;
+}
+.footer {
+    border-top: 3px solid #dc0101;
+    background-color: #182031;
+   
+}
+.footer > .column {
+    display: flex;
+    
+    
+}
+.footer .footer-column {
+    flex-grow: 1;
+    flex-basis: 0;
+   padding: 30xp;
+    font-size: 16pt;
+    color: #182031;
+}
+
+
+    
+    
+
+.logo-holderfooter {
+    display: flex;
+    text-align: left;
+}
+.logo-holderfooter img {
+    height: 36px;
+    width: 36px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
